@@ -1,0 +1,5 @@
+Flask
+selenium
+selenium-stealth
+requests
+beautifulsoup4
