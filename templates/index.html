@@ -1,0 +1,27 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notice Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Notice Board</h1>
+            <button id="download-all-btn">Download All Notices</button>
+        </header>
+        <main>
+            <ul id="notice-list">
+                <!-- Notices will be dynamically injected here -->
+            </ul>
+        </main>
+        <footer>
+            <p>&copy; 2023 Your Organization</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
